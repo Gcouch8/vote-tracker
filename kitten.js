@@ -55,8 +55,8 @@ function randomKittens(){
   $firstImg.show();
   $secondImg.show();
   $voteAgain.text('');
-  $firstImg.attr({src: 'images/' + randomImg1 + '.jpg', width: 200, height: 200});
-  $secondImg.attr({src: 'images/' + randomImg2 + '.jpg', width: 200, height: 200});
+  $firstImg.attr({src: 'images/' + randomImg1 + '.jpg', width: 250, height: 250});
+  $secondImg.attr({src: 'images/' + randomImg2 + '.jpg', width: 250, height: 250});
 }
 randomKittens();
 // add vote to
