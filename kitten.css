@@ -1,0 +1,144 @@
+* {
+  font-family: "Slabo 27px", sans-serif;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  height: 100%;
+  padding-bottom: 120px;
+  background-color: #e6e6e6;
+  background-image: url('images/kittenVote.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.wrapper {
+  margin-top: 50px;
+}
+
+main{
+  margin-left: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+ /* background-color: #002f2f;*/
+  background-color: rgba(196, 195, 175, 0.3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav div p {
+  padding-left: 15px;
+}
+
+.navItem {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #c5dae0;
+}
+
+#voteAgain {
+  font-weight: bold;
+}
+
+button {
+  font-size: 18px;
+  background-color: #002f2f;
+  color: white;
+  border-radius: 5px;
+}
+
+.highlight {
+  border: 35px solid #002f2f;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#firstImg, #secondImg {
+  margin-left: 50px;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 100px;
+}
+
+.chart:hover{
+   background-color: rgba(227, 232, 232, 0.7);
+  border-radius:10px;
+}
+
+.smallImg, #kitChart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#legend {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+}
+
+#legend li {
+  font-weight: bold;
+  font-size: 30px;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 195, 175, 0.3);
+  color: white;
+}
+
+
+}
