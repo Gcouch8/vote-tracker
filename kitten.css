@@ -7,9 +7,7 @@ body {
   justify-content: space-between;
   position: relative;
   margin: 0;
-  margin-bottom: 15px;
   height: 100%;
-  background-color: #e6e6e6;
   background-image: url('images/kittenVote.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,8 +71,8 @@ main{
 
 button {
   font-size: 18px;
-  background-color: #002f2f;
-  color: white;
+  background-color:rgba(227, 232, 232, 0.8);
+  color: black;
   border-radius: 5px;
 }
 
@@ -135,14 +133,15 @@ footer {
   flex-direction: row;
   justify-content: center;
   background-color: rgba(196, 195, 175, 0.3);
-  color: white;
+  color: black;
 }
 
 .disclaimer{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   font-weight: bold;
 }
 
-
-}
